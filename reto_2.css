@@ -1,0 +1,239 @@
+@font-face {
+  font-family:Hanken ;
+  src: url("HankenGrotesk-VariableFont_wght.ttf") format("woff");
+}
+body {
+  font-size: 18px;
+  font-family:Hanken;
+  overflow: hidden;
+  width: 1400px;
+  font-size: 16px;
+}
+.Card1 {
+  position: relative;
+  background: linear-gradient(to bottom ,#6541FD ,#312CEA);
+  border-radius: 25px;
+  top: 20vh;
+  width: 250px;
+  height: 350px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  margin-left: 500px;
+  z-index: 2;
+}
+
+.Card1__titulo {
+  text-align: center;
+  padding-top: 15px;
+  color: #D7CCFF;
+}
+.Card1__circulo {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: black;
+  left: 50px;
+  background: linear-gradient(to bottom ,#4C23CA,#4635F3);
+}
+.Card1__body {
+  position: relative;
+  text-align: center;
+  top: -170px;
+}
+.Card1__body-puntaje {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: -20px;
+  color: white;
+}
+.Card1__body-txt-dark {
+  color: #897DFF;
+  font-size: 12px;
+  font-weight: bold;
+}
+.Card1__footer {
+  position: relative;
+  top: -140px;
+  text-align: center;
+}
+.Card1__footer-titulo {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0;
+}
+.Card1__footer-parrafo {
+  font-size: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+  color: #BEBDFF;
+}
+.Card2 {
+  position: relative;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  top: -29.5vh;
+  width: 480px;
+  height: 350px;
+  margin-left: 500px;
+  z-index: 1;
+  text-align: right;
+
+}
+.Card2__titulo {
+  padding-top: 15px;
+  padding-right: 130px;
+  font-weight: bold;
+  padding-bottom: 1px;
+}
+.Card2__body {
+  font-size: 13px;
+  text-align: right;
+}
+.Card2__body-reaction , .Card2__body-reaction-number {
+  display: inline;
+}
+.Card2__Number {
+  color: #8F9095;
+}
+.Card2__Number-black {
+  color: black;
+}
+.Card2__body-r {
+ position: relative;
+  margin-left: 255px;
+  margin-right: 50px;
+  margin-bottom: 7px;
+  left: 25px;
+  height: 40px;
+  color: #CB5450;
+  font-weight: bold;
+  background-color: #FFF6F5;
+  line-height: 40px;
+  border-radius: 10px;
+}
+.Card2__Body-reaction-image {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: -22px;
+  width: 15px;
+}
+.Card2__body-reaction , .Card2__body-reaction-number {
+  display: inline;
+}
+.Card2__body-reaction {
+  margin-right: 40px;
+}
+.Card2__body-reaction-number {
+  margin-right: 10px;
+}
+/*parte 2*/
+.Card2__body-m {
+  position: relative;
+  margin-left: 255px;
+  margin-right: 50px;
+  margin-bottom: 7px;
+  left: 25px;
+  height: 40px;
+  color: #F2B234;
+  font-weight: bold;
+  background-color: #FFFBF2;
+  line-height: 40px;
+  border-radius: 10px;
+}
+.Card2__body-Memory-image {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: -22px;
+  width: 15px;
+}
+.Card2__body-Memory , .Card2__body-Memory-number {
+  display: inline;
+}
+.Card2__body-Memory {
+  margin-right: 42px;
+}
+.Card2__body-Memory-number {
+  margin-right: 10px;
+}
+
+.Card2__body-V {
+  position: relative;
+  margin-left: 255px;
+  margin-right: 50px;
+  margin-bottom: 7px;
+  left: 25px;
+  height: 40px;
+  color: #29A17E;
+  font-weight: bold;
+  background-color: #F2FBFA;
+  line-height: 40px;
+  border-radius: 10px;
+}
+.Card2__body-Verbal-image {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: -22px;
+  width: 15px;
+}
+
+.Card2__body-Verbal , .Card2__body-Verbal-number {
+  display: inline;
+}
+.Card2__body-Verbal {
+  margin-right: 52px;
+}
+.Card2__body-Verbal-number {
+  margin-right: 10px;
+}
+
+.Card2__body-Vis {
+  position: relative;
+  margin-left: 255px;
+  margin-right: 50px;
+  left: 25px;
+  height: 40px;
+  color: #202696;
+  font-weight: bold;
+  background-color: #F3F3FD;
+  line-height: 40px;
+  border-radius: 10px;
+}
+.Card2__body-Visual-image {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: -22px;
+  width: 15px;
+}
+
+.Card2__body-Visual , .Card2__body-Visual-number {
+  display: inline;
+}
+.Card2__body-Visual {
+  margin-right: 54px;
+}
+.Card2__body-Visual-number {
+  margin-right: 10px;
+}
+.Card2__footer {
+  position: relative;
+  margin-top: 40px;
+  margin-right:25px ;
+  margin-left: 279px;
+  background-color: #303B59;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.Card2__footer-text {
+  color: white;
+  font-size: 13px;
+}
+
+
+
